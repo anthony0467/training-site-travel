@@ -1,0 +1,59 @@
+// galerie petit ecran
+.flex_galery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex_galery li{
+    position: relative;
+    
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.flex_galery li figcaption{
+    position: absolute;
+    bottom: -40%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .35s;
+    
+}
+
+.first_galery .itemlist2{
+    position: relative;
+    width: 300px;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.fig-position{
+
+    bottom: -40%!important;
+    
+    
+}
+
+// galerie large ecran
+.grid_galery li{
+    position: relative;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.grid_galery li figcaption{
+    position: absolute;
+    bottom: -30%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .35s;
+    
+}
+
+.grid_galery li:first-child figcaption{
+    bottom: -40%;
+   
+    
+}

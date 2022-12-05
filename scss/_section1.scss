@@ -1,0 +1,40 @@
+h2 span{
+    color: $span-color;
+}
+.first_galery{
+    background-color: $background-section;
+    padding: 2rem 0;
+}
+.first_galery li{
+    position: relative;
+    width: 300px;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.first_galery .itemlist{
+    position: relative;
+    width: 300px;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+.itemlist figcaption{
+    position: absolute;
+    bottom: -70%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .35s;
+    
+}
+
+.first_galery li figcaption{
+    position: absolute;
+    bottom: -70%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    transition: .35s;
+    
+}

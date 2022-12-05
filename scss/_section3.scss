@@ -1,0 +1,16 @@
+.history_gallery{
+padding: 0 1rem;
+}
+
+.history_gallery li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    }
+
+.history_gallery li p{
+    text-align: center;
+    padding: 1rem;
+    padding-top: 0;
+    }

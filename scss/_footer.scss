@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: $background;
+}
+
+footer p{
+    padding: 1rem;
+    color: $p-color;
+    font-style: italic;
+}

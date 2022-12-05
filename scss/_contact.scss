@@ -1,0 +1,46 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    background: $span-color;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    margin: 1rem;
+}
+
+.contact p{
+    color: $p-color;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact p:nth-of-type(2){
+    border-top: 2px solid white;
+    border-bottom: 2px solid;
+}
+
+
+.contact div{
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     width: 100%;
+ 
+}
+
+input{
+    padding-left: 1rem;
+    width: 100%;
+}
