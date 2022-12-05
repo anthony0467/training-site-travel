@@ -117,8 +117,15 @@ a {
   transition: 0.7s;
 }
 
-body {
+html {
   scroll-behavior: smooth;
+}
+
+nav {
+  offset-anchor: smooth;
+}
+
+body {
   font-family: "Lato", sans-serif;
 }
 

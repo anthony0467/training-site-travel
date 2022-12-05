@@ -7,10 +7,15 @@ $span-color: rgb(102, 35, 35);
 $btn1-color: #fff; // couleur bouton
 $p-color: #fff;
 
-
-
-body{
+html{
     scroll-behavior: smooth;
+}
+
+nav{
+    offset-anchor: smooth;
+}
+body{
+
     font-family: 'Lato', sans-serif;
 }
 
