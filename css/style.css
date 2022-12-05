@@ -215,7 +215,7 @@ a:link, a::visited {
 }
 
 .bg-zealand {
-  background-image: url(img/bg-newzealand.jpg);
+  background-image: url(../img/bg-newzealand.jpg);
   height: 1280px;
   background-repeat: no-repeat;
   background-position: center;
