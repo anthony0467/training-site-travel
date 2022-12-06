@@ -38,7 +38,6 @@
 // galerie large ecran
 .grid_galery li{
     position: relative;
-    margin: .5rem;
     overflow: hidden;
 }
 
@@ -52,8 +51,11 @@
     
 }
 
+
 .grid_galery li:first-child figcaption{
-    bottom: -40%;
-   
-    
+    bottom: -40%; 
+}
+
+.grid_galery li:last-child figcaption{
+    bottom: -40%; 
 }

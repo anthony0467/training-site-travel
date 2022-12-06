@@ -144,7 +144,7 @@ h1{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat((3, 1fr));
-        grid-gap: .3rem;
+        grid-gap: 1rem;
         padding: 0 2rem;
     }
     

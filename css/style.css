@@ -112,6 +112,7 @@ a {
 }
 
 .hide {
+  display: none;
   position: absolute;
   left: 44rem;
   transition: 0.7s;
@@ -238,6 +239,18 @@ a:link, a::visited {
   opacity: 0;
 }
 
+.img-cover img {
+  height: 304px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.big-img-cover img {
+  height: 624px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .header {
   position: relative;
 }
@@ -328,7 +341,6 @@ h2 span {
 
 .grid_galery li {
   position: relative;
-  margin: 0.5rem;
   overflow: hidden;
 }
 
@@ -342,6 +354,10 @@ h2 span {
 }
 
 .grid_galery li:first-child figcaption {
+  bottom: -40%;
+}
+
+.grid_galery li:last-child figcaption {
   bottom: -40%;
 }
 
@@ -520,7 +536,7 @@ footer p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-    grid-gap: 0.3rem;
+    grid-gap: 1rem;
     padding: 0 2rem;
   }
   .grid_galery li:first-child {
