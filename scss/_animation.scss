@@ -1,8 +1,7 @@
 .fadeOut {
-    opacity: 0;
+  opacity: 0;
    transform: translate3d(-50px, 0, 0);
-  
-    cursor: pointer;
+
     transition: 1s all ease-in-out;
   }
 

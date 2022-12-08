@@ -8,31 +8,37 @@ const section2 = document.getElementById('inspiration')
 const section3 = document.getElementById('a-propos')
 const section4 = document.getElementById('contact')
 
-if (window.matchMedia("(min-width: 700px)").matches) {
-  headerSection.classList.add('fadeOut')
-  section1.classList.add('fadeOut')
-  section2.classList.add('fadeOut')
-  section3.classList.add('fadeOut')
-  section4.classList.add('fadeOut')
-  var observer = new IntersectionObserver((entries) => {
-    for (entry of entries) {
-
-      if (entry.isIntersecting) {
-        entry.target.classList.add('fadeIn')
+window.addEventListener('load', function(){
+  if (window.matchMedia("(min-width: 700px)").matches) {
+    headerSection.classList.add('fadeOut')
+    section1.classList.add('fadeOut')
+    section2.classList.add('fadeOut')
+    section3.classList.add('fadeOut')
+    section4.classList.add('fadeOut')
+    var observer = new IntersectionObserver((entries) => {
+      for (entry of entries) {
+  
+        if (entry.isIntersecting) {
+          
+          entry.target.classList.add('fadeIn')
+         
+        }
+  
       }
+    }, {
+      threshold: 0
+    })
+    observer.observe(document.querySelector('.header'))
+    observer.observe(document.querySelector('#destination'))
+    observer.observe(document.querySelector('#inspiration'))
+    observer.observe(document.querySelector('#a-propos'))
+    observer.observe(document.querySelector('#contact'))
+  } else {
+    /* L'affichage est inférieur à 700px de large */
+  }
+  
+})
 
-    }
-  }, {
-    threshold: .4
-  })
-  observer.observe(document.querySelector('.header'))
-  observer.observe(document.querySelector('#destination'))
-  observer.observe(document.querySelector('#inspiration'))
-  observer.observe(document.querySelector('#a-propos'))
-  observer.observe(document.querySelector('#contact'))
-} else {
-  /* L'affichage est inférieur à 700px de large */
-}
 
 
 

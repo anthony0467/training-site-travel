@@ -150,7 +150,7 @@ h1 {
 
 h2 {
   color: #051b57;
-  font-size: 6vmin;
+  font-size: 35px;
   text-align: center;
   padding: 4rem 0;
 }
@@ -253,6 +253,7 @@ a:link, a::visited {
 
 .header {
   position: relative;
+  opacity: 0;
 }
 
 .title-header {
@@ -476,6 +477,10 @@ footer p {
   h1 {
     max-width: 40%;
   }
+  h2 {
+    font-size: 40px;
+    margin-top: 10rem;
+  }
   .block-p {
     font-style: italic;
     display: block;
@@ -573,7 +578,6 @@ footer p {
 .fadeOut {
   opacity: 0;
   transform: translate3d(-50px, 0, 0);
-  cursor: pointer;
   transition: 1s all ease-in-out;
 }
 
