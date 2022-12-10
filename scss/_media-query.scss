@@ -1,5 +1,9 @@
 @media (min-width: 700px) {
     // navbar
+
+    .header{
+        opacity: 0;
+    }
     .nav__link {
         display: block;
         position: static;

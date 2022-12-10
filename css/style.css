@@ -253,7 +253,6 @@ a:link, a::visited {
 
 .header {
   position: relative;
-  opacity: 0;
 }
 
 .title-header {
@@ -438,6 +437,9 @@ footer p {
 }
 
 @media (min-width: 700px) {
+  .header {
+    opacity: 0;
+  }
   .nav__link {
     display: block;
     position: static;
